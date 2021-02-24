@@ -1,21 +1,34 @@
 div.ui.borderless.floating.topbar.message {
   box-shadow: none;
   border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  font-family: Public Sans;
 }
 
 div.ui.borderless.topmenu.menu{
-  background-color: #0d2f4b;
+  background-color: #154e7d;
   box-shadow: none;
   border: none;
+  height: 150px;
 }
 
 .footer-background {
-  background: #004030;
-  padding: 20px;
+  background: #0d2f4b;
   color: white;
 }
 
-underlined.blue.text {
+.underlined.blue.text {
   color: blue;
-  underline: true;
+  text-decoration: overline;
+}
+
+div.mainContent {
+  width:100%;
+  min-height:calc(100% - 100px);
+  background-image: url("earth.jpg");
+  background-size: cover;
+  background-attachment:fixed;
 }
