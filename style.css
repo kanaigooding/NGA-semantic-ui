@@ -1,0 +1,21 @@
+div.ui.borderless.floating.topbar.message {
+  box-shadow: none;
+  border: none;
+}
+
+div.ui.borderless.topmenu.menu{
+  background-color: #0d2f4b;
+  box-shadow: none;
+  border: none;
+}
+
+.footer-background {
+  background: #004030;
+  padding: 20px;
+  color: white;
+}
+
+underlined.blue.text {
+  color: blue;
+  underline: true;
+}
