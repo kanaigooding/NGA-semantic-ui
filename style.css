@@ -1,23 +1,84 @@
-div.ui.borderless.floating.topbar.message {
+
+/*
+Ribbon Banner Message
+ */
+div.top-ribbon.row {
+  font-family: Public Sans, sans-serif;
   box-shadow: none;
   border: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: 0.75rem;
-  line-height: 1.2;
-  font-family: Public Sans;
+  margin: auto;
+  max-height: 36px;
 }
 
-div.ui.borderless.topmenu.menu{
+/*
+The Middle Bar Row
+ */
+.the-middle-bar.row {
   background-color: #154e7d;
   box-shadow: none;
   border: none;
-  height: 150px;
+  margin: auto;
+  height: 165px;
 }
 
-.footer-background {
-  background: #0d2f4b;
+/*
+The Middle Bar Row: Search Bar + Words
+ */
+.nga-logo.row {
+  margin: 10px;
   color: white;
+}
+
+/*
+Main Menu ROW
+ */
+.main-menu.row {
+  background: #0d2f4b;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+Main Menu
+ */
+div.ui.borderless.main-menu.menu {
+  background: #0d2f4b;
+  margin: -12px;
+  box-shadow: none;
+  border: none;
+
+}
+
+/*
+Main Menu
+ */
+div.main-menu.item {
+  color: white;
+  font-weight: bold;
+}
+
+/*
+Main Content
+ */
+div.main-content.row {
+  width:100%;
+  height: 486px;
+  min-height:calc(100% - 100px);
+  background-image: linear-gradient(to top, rgba(8, 39, 64, 0.60) 0%, rgba(8, 39, 64, 0.60) 100%), url("earth.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+  color: white;
+  font-weight: bold;
+  font-size: 1.65rem;
+  line-height: 1.8;
+  text-shadow: -1px -1px 1px rgba(255 255 255 0.1), 1px 1px 1px rgba(0 0 0 .5);
+}
+
+/*
+Main Content Badge Thingies
+ */
+img.main-content-badge.image {
+  width: 125px;
 }
 
 .underlined.blue.text {
@@ -25,10 +86,6 @@ div.ui.borderless.topmenu.menu{
   text-decoration: overline;
 }
 
-div.mainContent {
-  width:100%;
-  min-height:calc(100% - 100px);
-  background-image: url("earth.jpg");
-  background-size: cover;
-  background-attachment:fixed;
-}
+
+
+

@@ -13,59 +13,99 @@
 </head>
 <body>
 
-<div class="ui borderless floating topbar message">
-  <div class="ui container">
-    <p>
-      <i class="us flag"></i> An official website of the United States government.
-      <a href="underlined blue text">Here's how you know</a> <i class="dropdown icon"></i>
-    </p>
+<div class="ui grid">
+
+  <div class="top-ribbon row">
+    <div class="ui container">
+      <p>
+        <i class="us flag"></i> An official website of the United States government.
+        <a href="underlined blue text">Here's how you know</a> <i class="dropdown icon"></i>
+      </p>
+    </div>
+  </div>
+
+  <div class="the-middle-bar row">
+    <div class="ui bottom aligned grid container">
+
+      <div class="ten wide nga-logo column">
+        <img class="ui nga-logo big image" src="ngalogo.png">
+      </div>
+
+      <div class="right aligned six wide nga-logo column">
+        <div class="nga-logo row">
+          Facilities Operating Status | Employee Website
+        </div>
+        <div class="nga-logo row">
+          <div class="ui action input">
+            <input type="text" placeholder="Search Site">
+            <button class="ui teal button"><i class="search icon"></i></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="main-menu row">
+    <div class="ui container">
+      <div class="ui borderless main-menu menu">
+        <div class="main-menu item">
+          Home
+        </div>
+        <a class="main-menu item">
+          About<i class="dropdown icon"></i>
+        </a>
+        <a class="main-menu item">
+          New
+        </a>
+        <a class="main-menu item">
+          Careers<i class="dropdown icon"></i>
+        </a>
+        <a class="main-menu item">
+          Resources
+        </a>
+        <a class="main-menu item">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content row">
+      <div class="ui top aligned grid container">
+
+        <div class="right aligned sub-main-menu row">
+          <div class="column">
+            <img class="main-content-badge image" src="banner1.png">
+            <img class="main-content-badge image" src="banner2.png">
+            <img class="main-content-badge image" src="banner3.png">
+          </div>
+        </div>
+
+        <div class="left aligned sub-main-menu row">
+          <div class="main-content item">
+            <h1>
+              NGA delivers world-class geospatial intelligence that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders.
+            </h1>
+          </div>
+        </div>
+
+        <div class="left aligned sub-main-menu row">
+          <button class="ui teal button">
+            Join Us
+          </button>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="ui borderless topmenu menu">
-  <div class="ui container">
-    <img class="ui big image" src="ngalogo.png">
-  </div>
-</div>
 
-<div class="mainContent">
-  <div class="ui large secondary inverted menu">
-    <div class="item">
-      <h1>
-        NGA delivers world-class geospatial intelligence that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders.
-      </h1>
-    </div>
-  </div>
-</div>
 
-<div class="footer-background">
-  <div class="ui three column grid container">
-    <div class="column">
-      Lunch
-      <hr/>
-      <div class="ui list">
-        <div class="item">Monday - Friday: 11:00am - 2:30pm</div>
-        <div class="item">Saturday - Sunday: Not open for lunch</div>
-      </div>
-    </div>
-    <div class="column">
-      Bar
-      <hr/>
-      <div class="ui list">
-        <div class="item">Monday - Friday from 11:00am</div>
-        <div class="item">Saturday - Sunday from 4pm</div>
-      </div>
-    </div>
-    <div class="column">
-      Dinner
-      <hr/>
-      <div class="ui list">
-        <div class="item">Monday - Saturday: 5:30pm - 10:00pm</div>
-        <div class="item">Sunday: 5:00pm - 9:00pm</div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <script>
   $('.ui.dropdown')
