@@ -104,3 +104,68 @@ Main Content Rows
   margin-bottom: 150px;
 }
 
+/*
+Our Mission Rows
+ */
+.our-mission.row {
+  padding: 40px;
+  height: 600px;
+  background-size: contain;
+  margin: 0;
+  background-image: linear-gradient(to top, rgba(251, 251, 251, 0) 0%, rgba(251, 251, 251, 1) 100%), url(https://www.nga.mil/generated/assets/files/topography-1500-658e8d.png);
+}
+
+h4.our-mission {
+  color: #565c65;
+  line-height: 1.4;
+  margin-left: 0;
+  margin-top: 40px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+h1.our-mission {
+  font-family: 'Arvo', serif;
+  color: teal;
+  margin-left: 0;
+  margin-top: 40px;
+  font-size: 1.99rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.our-mission.ui.button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: #154e7d;
+  border-radius: 1px;
+  color: white;
+}
+
+.our-mission.card {
+  background: white;
+  margin-top: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+h4.our-mission-right {
+  margin-top: 60px;
+}
+
+.ui.top.aligned.floated.our-mission.image {
+  align-content: center;
+  height: 60px;
+  width: 60px;
+}
+
+.our-mission-special{
+  margin: -10px;
+}
+
+p.our-mission-inner, h4.our-mission-inner {
+  font-family: 'Public Sans', sans-serif;
+  font-size: small;
+  margin: 0;
+}
+
+
